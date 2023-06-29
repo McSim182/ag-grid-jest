@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { AgGridModule } from '@ag-grid-community/angular';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent],
+  imports: [AgGridModule],
   selector: 'ag-grid-jest-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
