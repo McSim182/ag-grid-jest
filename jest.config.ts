@@ -4,6 +4,7 @@ export default {
   preset: './jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   coverageDirectory: './coverage/ag-grid-jest',
+  resolver: '<rootDir>/resolver.js',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
